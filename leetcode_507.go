@@ -1,4 +1,4 @@
-package main
+package leetcode
 
 import "math"
 
@@ -14,8 +14,4 @@ func checkPerfectNumber(num int) bool {
 		}
 	}
 	return num == n
-}
-
-func main() {
-
 }

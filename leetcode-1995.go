@@ -1,8 +1,4 @@
-package main
-
-import (
-	"fmt"
-)
+package leetcode
 
 func countQuadruplets(nums []int) (ans int) {
 	cnt := map[int]int{}
@@ -17,9 +13,4 @@ func countQuadruplets(nums []int) (ans int) {
 		}
 	}
 	return
-}
-
-func main() {
-	nums := []int{28, 8, 49, 85, 37, 90, 20, 8}
-	fmt.Println(nums[:3])
 }

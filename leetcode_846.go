@@ -1,7 +1,6 @@
-package main
+package leetcode
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -31,9 +30,4 @@ func isNStraightHand(hand []int, groupSize int) bool {
 			m[i]--
 		}
 	}
-}
-
-func main() {
-	hand := []int{1, 2, 3, 6, 2, 3, 4, 7, 8}
-	fmt.Println(isNStraightHand(hand, 3))
 }

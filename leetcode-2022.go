@@ -1,4 +1,4 @@
-package main
+package leetcode
 
 func construct2DArray(original []int, m int, n int) (ans [][]int) {
 	if len(original) != m*n {
@@ -12,8 +12,4 @@ func construct2DArray(original []int, m int, n int) (ans [][]int) {
 		}
 	}
 	return
-}
-
-func main() {
-
 }
