@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/takiya562/leetcode-go/leetcode"
+	"path"
 )
 
 func main() {
-	fmt.Println(leetcode.IsAdditiveNumber("198019823962"))
+	url := "/path/to/file"
+	fmt.Println(path.Base(url))
 }
