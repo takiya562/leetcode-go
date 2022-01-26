@@ -2,10 +2,16 @@ package main
 
 import (
 	"fmt"
-	"path"
 )
 
 func main() {
-	url := "/path/to/file"
-	fmt.Println(path.Base(url))
+	i := 1
+	switch i {
+	case 1:
+		fmt.Println("one")
+	case 2:
+		fmt.Println("two")
+	case 3:
+		fmt.Println("three")
+	}
 }
