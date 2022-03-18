@@ -6,7 +6,7 @@ type DetectSquares struct {
 	graph [][][2]int
 }
 
-func Constructor() DetectSquares {
+func constructor() DetectSquares {
 	return DetectSquares{
 		graph: make([][][2]int, 1001),
 	}
